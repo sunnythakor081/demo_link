@@ -1,0 +1,144 @@
+8. Streaming Algorithms
+------>
+Description: Algorithms for processing large data streams using limited memory, where data arrives in a sequence and only once.
+Key Points: Space complexity, single-pass algorithms, frequency estimation, and sliding window techniques
+
+
+
+
+17. Multidimensional Data Structures (KD-Trees, R-Trees)
+Description: Data structures optimized for managing and querying multidimensional data, such as points in 2D, 3D, or higher dimensions.
+Key Points: Applications in gaming, machine learning, image processing, and spatial databases.
+
+
+
+
+6. Streaming Algorithms
+Description: Algorithms designed to process large streams of data using limited memory, where only one pass over the data is allowed.
+Applications: Real-time analytics, network monitoring, big data processing
+
+
+
+
+
+17. Order-Statistic Trees
+Description: A type of balanced binary search tree that allows fast rank-based queries (e.g., finding the k-th smallest element).
+Applications: Database systems, statistical analysis, game leaderboards
+
+
+
+
+
+
+In-Memory Data Structures for Big Data Analytics
+Description: Specialized data structures designed to handle and query massive datasets efficiently in memory.
+Applications: Real-time analytics, big data platforms, in-memory databases.
+
+
+
+
+
+
+Greedy Algorithms
+***************************
+Greedy algorithms follow the problem-solving heuristic of making the locally optimal choice at each stage with the hope of finding a global optimum. They are used for optimization problems. An optimal solution is one where the value of the solution is either maximum or minimum. These algorithms work in a ” greedy” manner by choosing the best option at the current, disregarding any implications on the future steps. This can lead to solutions that are less optimal. Examples of problems solved by greedy algorithms are Kruskal’s minimal spanning tree algorithm, Dijkstra’s shortest path algorithm, and the Knapsack problem.
+
+
+
+
+Fenwick Trees
+Fenwick Trees, also known as Binary Indexed Trees, are data structures that can efficiently support the operation of updating elements and calculating prefix sums in a table of numbers. This makes it particularly useful in situations where the table gets updated often and different kinds of queries (such as sum of elements) need to be answered fast. A Fenwick Tree typically takes O(log n) time for both updation and query operations, which is more efficient than an array or a segment tree. It achieves this efficiency by storing partial sum information in the array. This allows for efficient calculation of sum ranges, with the operation of adding an element and getting the sum of a range both achieve in O(log n) time.
+
+
+
+
+Python has a large number of built-in functions, modules, and libraries, but here is a comprehensive list of the built-in functions that are always available:
+
+Python Built-in Functions:
+abs(): Returns the absolute value of a number.
+all(): Returns True if all elements of the iterable are true.
+any(): Returns True if any element of the iterable is true.
+ascii(): Returns a string containing a printable representation of an object, but escapes the non-ASCII characters.
+bin(): Converts an integer to a binary string.
+bool(): Converts a value to a boolean (True or False).
+breakpoint(): Drops into the debugger at the call site.
+bytearray(): Returns an array of bytes.
+bytes(): Returns a new "bytes" object.
+callable(): Checks if the object appears callable.
+chr(): Returns the string representing a character for the given Unicode code point.
+classmethod(): Transforms a method into a class method.
+compile(): Compiles source into a code object.
+complex(): Creates a complex number.
+delattr(): Deletes an attribute from an object.
+dict(): Creates a new dictionary.
+dir(): Attempts to return a list of valid attributes for the object.
+divmod(): Returns a tuple of the quotient and remainder when dividing two numbers.
+enumerate(): Returns an enumerate object.
+eval(): Evaluates a Python expression from a string-based input.
+exec(): Executes Python code dynamically.
+filter(): Constructs an iterator from elements of iterable for which a function returns true.
+float(): Converts a string or number to a floating-point number.
+format(): Returns a formatted string.
+frozenset(): Returns an immutable frozenset object.
+getattr(): Returns the value of a named attribute of an object.
+globals(): Returns the current global symbol table as a dictionary.
+hasattr(): Returns True if the object has the named attribute.
+hash(): Returns the hash value of an object.
+help(): Invokes the built-in help system.
+hex(): Converts an integer to a hexadecimal string.
+id(): Returns the identity of an object.
+input(): Reads input from the user as a string.
+int(): Converts a string or number to an integer.
+isinstance(): Checks if an object is an instance of a class or tuple of classes.
+issubclass(): Checks if a class is a subclass of another class.
+iter(): Returns an iterator object.
+len(): Returns the number of items in an object.
+list(): Creates a list.
+locals(): Updates and returns a dictionary representing the current local symbol table.
+map(): Applies a function to all items in an iterable.
+max(): Returns the largest item from an iterable.
+memoryview(): Returns a memory view object.
+min(): Returns the smallest item from an iterable.
+next(): Retrieves the next item from an iterator.
+object(): Returns a new featureless object.
+oct(): Converts an integer to an octal string.
+open(): Opens a file and returns a file object.
+ord(): Returns an integer representing the Unicode code point of a character.
+pow(): Returns the result of raising a number to a power.
+print(): Prints the specified message(s) to the console.
+property(): Returns a property attribute.
+range(): Returns a sequence of numbers.
+repr(): Returns a string representing the object.
+reversed(): Returns a reversed iterator.
+round(): Rounds a floating-point number to a specified number of digits.
+set(): Returns a new set object.
+setattr(): Sets an attribute on an object.
+slice(): Returns a slice object.
+sorted(): Returns a sorted list from an iterable.
+staticmethod(): Transforms a method into a static method.
+str(): Converts an object to a string.
+sum(): Returns the sum of items in an iterable.
+super(): Returns a proxy object that delegates method calls to a parent class.
+tuple(): Returns a tuple.
+type(): Returns the type of an object.
+vars(): Returns the __dict__ attribute of an object.
+zip(): Returns an iterator of tuples, where each tuple contains items from the iterables passed in.
+import(): Invoked by the import statement.
+These are the Python built-in functions that are readily available without the need for any external libraries or modules.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
